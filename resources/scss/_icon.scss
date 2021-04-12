@@ -1,0 +1,148 @@
+@font-face {
+    font-family: "FA5 Regular";
+    src: url("/fonts/fa-regular-400.woff2") format("woff2"), url("/fonts/fa-regular-400.woff") format("woff"), url("/fonts/fa-regular-400.ttf") format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "FA5 Brands";
+    src: url("/fonts/fa-brands-400.woff2") format("woff2"), url("/fonts/fa-brands-400.woff") format("woff"), url("/fonts/fa-brands-400.ttf") format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "FA5 Solid";
+    src: url("/fonts/fa-solid-900.woff2") format("woff2"), url("/fonts/fa-solid-900.woff") format("woff"), url("/fonts/fa-solid-900.ttf") format("truetype");
+    font-display: swap;
+}
+
+.facebook-icon {
+    &:before {
+        text-decoration: none;
+        padding: 0 .8rem;
+        content: "\f39e";
+        display: inline-block;
+        font-family: "FA5 Brands" !important;
+    }
+}
+.linkedin-icon {
+    &:before {
+        text-decoration: none;
+        padding: 0 .8rem;
+        content: "\f0e1";
+        display: inline-block;
+        font-family: "FA5 Brands" !important;
+    }
+}
+.github-icon {
+    &:before {
+        text-decoration: none;
+        padding: 0 .8rem;
+        content: "\f09b";
+        display: inline-block;
+        font-family: "FA5 Brands" !important;
+    }
+}
+.twitter-icon {
+    &:before {
+        text-decoration: none;
+        padding: 0 .8rem;
+        content: "\f099";
+        display: inline-block;
+        font-family: "FA5 Brands" !important;
+    }
+}
+.download-icon {
+    &:before {
+        text-decoration: none;
+        padding: 0 .8rem;
+        content: "\f56d";
+        display: inline-block;
+        font-family: "FA5 Solid" !important;
+    }
+}
+.game-icon {
+    &:before {
+        text-decoration: none;
+        padding: 0 .8rem;
+        content: "\f11b";
+        display: inline-block;
+        font-family: "FA5 Solid" !important;
+    }
+}
+.film-icon {
+    &:before {
+        text-decoration: none;
+        padding: 0 .8rem;
+        content: "\f008";
+        display: inline-block;
+        font-family: "FA5 Solid" !important;
+    }
+}
+.football-icon {
+    &:before {
+        text-decoration: none;
+        padding: 0 .8rem;
+        content: "\f1e3";
+        display: inline-block;
+        font-family: "FA5 Solid" !important;
+    }
+}
+.music-icon {
+    &:before {
+        text-decoration: none;
+        padding: 0 .8rem;
+        content: "\f001";
+        display: inline-block;
+        font-family: "FA5 Solid" !important;
+    }
+}
+.search-icon {
+    &:before {
+        text-decoration: none;
+        padding: 0 .8rem;
+        content: "\f002";
+        display: inline-block;
+        font-family: "FA5 Solid" !important;
+    }
+}
+.info-icon {
+    &:before {
+        text-decoration: none;
+        padding: 0 .8rem;
+        content: "\f129";
+        display: inline-block;
+        font-family: "FA5 Solid" !important;
+    }
+}
+.client-icon {
+    &:before {
+        text-decoration: none;
+        padding: 0 .8rem;
+        content: "\f140";
+        display: inline-block;
+        font-family: "FA5 Solid" !important;
+    }
+}
+.calender-icon {
+    &:before {
+        text-decoration: none;
+        padding: 0 .8rem;
+        content: "\f073";
+        display: inline-block;
+        font-family: "FA5 Solid" !important;
+    }
+}
+.clock-icon {
+    &:before {
+        text-decoration: none;
+        padding: 0 .8rem;
+        content: "\f017";
+        display: inline-block;
+        font-family: "FA5 Solid" !important;
+    }
+}
+
+.fix-icon-pos{
+    padding-right: 5px;
+}
