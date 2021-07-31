@@ -7,12 +7,10 @@
     <span></span>
     <span></span>
 </a>
-<section  class='single-work' >
+<section class="mt-5">
 				
     <div class='contact-block section-block' >
         <div class='container' >
-            <div class='row' >
-                <div class='col-md-6 col-md-offset-3' >
                     <div class='section-header text-center' >
                         <h2 class='animate text-over-block' >Contact Me</h2>
                         <!--divider-->
@@ -21,12 +19,9 @@
                         <p>
                             I'm available for freelancing. If you want something to be built or just to say hi, feel free to shoot me a message.
                         </p>
-                    </div>
-                </div>
             </div>
             
-            <div class='row' >
-                <div class='col-md-8 col-md-offset-2' >
+            <div>
                     <form id='contact-form' class='contact-form' action='/contact' method='POST' >
                         @csrf
                         <div id='contact-form-result' ></div>
@@ -85,14 +80,13 @@
                         </ul>
                     </div>
                      @endif
-                </div>
             </div>
         </div>
     </div>
 
     
- @include('layouts.footer')
     
 </section>
+@include('layouts.footer')
 
 @endsection

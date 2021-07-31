@@ -14,7 +14,7 @@
 		  <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
 		
-		<link rel='stylesheet' type='text/css' href='{{ URL('css/bootstrap.min.css') }}' >
+		<link rel='stylesheet' type='text/css' href='{{ URL('css/bootstrap.css') }}' >
 		
 		<link rel='stylesheet' type='text/css' href='{{ URL('css/owl.carousel.css') }}' >
 		<link rel='stylesheet' type='text/css' href='{{ URL('css/owl.theme.css') }}' >
@@ -68,6 +68,16 @@
 		<script src='{{ URL('js/validator.min.js')}}' ></script>
 		<script src='{{ URL('js/smoothscroll.js')}}' ></script>
 		<script src='{{ URL('js/app.js')}}' ></script>
+
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CR7RY7P408"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-CR7RY7P408');
+</script>
 		
 		
 		

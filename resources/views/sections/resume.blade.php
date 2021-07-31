@@ -1,24 +1,15 @@
 <section id='resume' class='resume-section section' >
 				
     <div class='container' >
-        <div class='row' >
-            <div class='col-md-6 col-md-offset-3' >
                 <div class='section-header text-center' >
-                    
                     <h2 class='animate text-over-block' >My Resume</h2>
-                    
+                    <a href='{{ url('storage/docs/Mahdi-Joveyni-CV.pdf') }}' target="_blank" class='symp-btn link-btn' ><i class='download-icon' ></i>Download CV</a>
                     <!--divider-->
                     <div class='divider-draft center' ></div>
                     <!--/divider-->
-                    
-                    
                 </div>
-            </div>
-        </div>
-    </div>
     
     <div class='timeline-block section-block' >
-        <div class='container' >
             <ul class='timeline' >
                 <li class='timeline-header' >
                     <h4>Experience</h4>
@@ -26,18 +17,27 @@
                 
                 
                 <li>
-                    
-                    <div class='timeline-desc' >
+                    <div class='timeline-content' >
                         
+                        <h4>Full-stack Devloper</h4>
+                        <span>@self-employed</span>
+                        
+                        <ul>
+                          <li>Discussed project progress with customers, collected feedback on different stages and directly addressed concerns.</li>  
+                          <li>Provided back-end website development using .net core, Entity Framework, MS SQL and C#.</li>  
+                          <li>Provided front-end website development using ReacJS, Typescript, Html and css3/scss.</li>  
+                          <li>Reviewed code, debugged problems and corrected issues.</li>
+                          <li>Starting learn PHP and Laravel and make my portfolio website with this framework.</li>
+                        </ul>
+                    </div>
+                    <div class='timeline-desc' >
                         <h4>2019 - present</h4>
-                           
                         <h6>Technologies used:</h6>
                         <div>
                             <span class="badge primary">.net 5</span>
                             <span class="badge primary">.net core</span>
                             <span class="badge primary">MS SQL</span>
                             <span class="badge primary">C#</span>
-                            <span class="badge primary">Object Oriented Design Patterns</span>
                             <span class="badge primary">Entity Framework</span>
                             <span class="badge primary">ReactJS</span>
                             <span class="badge primary">TypeScript</span>
@@ -46,29 +46,23 @@
                             <span class="badge primary">php</span>
                             <span class="badge primary">laravel</span>
                             <span class="badge primary">MySql</span>
+                            <span class="badge primary">Object Oriented Design Patterns</span>
                         </div>
                     </div>
-                    
-                    <div class='timeline-content' >
-                        
-                        <h4>Full-stack Devloper</h4>
-                        <span>@self-employed</span>
-                        
-                        <ul class="ul no-style">
-                          <li >Designed and Developed online shop website.</li>  
-                          <li>Designing and Developing online web-base game.</li>  
-                          <li>Learning Laravel Framework.</li>  
-                        </ul>
-                     
-
-                    </div>
-                    
                 </li>
                 
                 <li class='inverse' >
-                    
+                    <div class='timeline-content' >
+                        <h4>Software Specialist</h4>
+                        <span>@University of Bojnord, Bojnord - Iran</span>
+                        <ul class="ul no-style">
+                            <li>Maintained existing applications and designed and delivered new applications.</li>
+                            <li>Developed next generation integration platform for internal applications.</li>
+                            <li>Wrote code on Liferay platform using Java.</li>
+                            <li>Rewrote and updated group policy with new domain move and domain level raise.</li>
+                          </ul> 
+                    </div>
                     <div class='timeline-desc' >
-                        
                         <h4>2016-2019</h4>
                         <h6>Technologies used:</h6>
                         <div>
@@ -79,24 +73,23 @@
                             <span class="badge primary">.net framework</span>
                         </div>
                     </div>
-                    
-                    <div class='timeline-content' >
-                        
-                        <h4>Software Specialist</h4>
-                        <span>@University of Bojnord, Bojnord - Iran</span>
-                        
-                        <p>
-                            Responsibility for the smooth running of hardware, software applications and website provision for about 2000 staff and student members of the university.
-                        </p>
-                        
-                    </div>
-                    
                 </li>
                 
                 <li>
-                    
+                    <div class='timeline-content' >
+                        <h4>Software Developer</h4>
+                        <span>@Toos Informatic Rahavard - Mashhad - Iran</span>
+                        <ul class="ul no-style">
+                            <li>Revised, modularized and updated old code bases to modern development standards, reducing operating costs and improving functionality.</li>
+                            <li>Collaborated with project managers to select ambitious, but realistic coding milestones on pre-release software project development.</li>
+                            <li>Introduced agile methodologies and effective development best practices to division to enhance product development.</li>
+                            <li>Wrote MIS applications for Ministry of Energy.</li>
+                            <li>Designed new product elements such as Form-Designer, Workflow, Dashboard-Designer, Document-Designer.</li>
+                            <li>Worked closely with clients to establish specifications and system designs.</li>
+                            <li>Built, tested and deployed scalable, highly available and modular software products.</li>
+                          </ul> 
+                    </div>
                     <div class='timeline-desc' >
-                        
                         <h4>2011-2016</h4>
                         <h6>Technologies used:</h6>
                         <div>
@@ -117,23 +110,6 @@
                             <span class="badge primary">WCF</span>
                         </div>
                     </div>
-                    
-                    <div class='timeline-content' >
-                        
-                        <h4>Software Developer</h4>
-                        <span>@Toos Informatic Rahavard - Mashhad - Iran</span>
-                        
-                       <h6>Designed and developed varius tools for MIS(Management Information Service) such as:</h6>
-                        <ul class="ul no-style">
-                            <li>Client web site</li>  
-                            <li>Form-Designer</li>  
-                            <li>Dashboard-Designer</li>  
-                            <li>Documnet-Pattern</li>  
-                        </ul>
-                        <h6>Develop web site for view system Reports (TIRPortal)</h6>
-                        <h6>Develop web site for show ArcGIS Map for 122 App</h6>
-                    </div>
-                    
                 </li>
                 
                 <li class='timeline-header' >
@@ -179,58 +155,10 @@
        
                 
             </ul>
-        </div>
-    </div>
-    
-    <div class='hobbies-block bg-lightgray section-block' >
-        <div class='container' >
-            <div class='section-header text-center' >
-                <h2 class='animate text-over-block' >My Hobbies</h2>
-                <!--divider-->
-                <div class='divider-draft center' ></div>
-                <!--/divider-->
-            </div>
-            <div class='row text-center' >
-                <div class='col-md-3 col-sm-4 col-xs-6' >
-                    <div class='hobby' >
-                        <div class='icon' >
-                            <i class='game-icon' ></i>
-                        </div>
-                        <h4>Gaming</h4>
-                    </div>
-                </div>
-                <div class='col-md-3 col-sm-4 col-xs-6' >
-                    <div class='hobby' >
-                        <div class='icon' >
-                            <i class='film-icon' ></i>
-                        </div>
-                        <h4>Movies and Series</h4>
-                    </div>
-                </div>
-                <div class='col-md-3 col-sm-4 col-xs-6' >
-                    <div class='hobby' >
-                        <div class='icon' >
-                            <i class='music-icon' ></i>
-                        </div>
-                        <h4>Music</h4>
-                    </div>
-                </div>
-                <div class='col-md-3 col-sm-4 col-xs-6' >
-                    <div class='hobby' >
-                        <div class='icon' >
-                            <i class='football-icon' ></i>
-                        </div>
-                        <h4>Football</h4>
-                    </div>
-                </div>
-            </div>
-            
-        </div>
     </div>
     
     <div class='skills-block section-block' >
         
-        <div class='container' >
         
             <div class='section-header text-center' >
                 <h2 class='animate text-over-block' >My Skills</h2>
@@ -242,121 +170,93 @@
             </div>
             
             
-            <div class='row' >
-                
-                <div class='col-md-6' >
-                    
-                    <div class='skill' >
-                        
-                        <h4>C#</h4>
-                        
-                        <div class='skill-bar' data-percent='90' >
-                            <div class='bar' >
-                                <div class='percent' >90%</div>
-                            </div>
+            <div class='row mt-5 mb-5 p-1 justify-content-center' >
+                <div class='col-md-2 col-sm-4 col-6' >
+                    <div class='hobby' >
+                        <div class='icon' >
+                            <img src="\storage\images\skills\csharp.png" alt="csharp">
                         </div>
-                        
                     </div>
-                    
-                    <div class='skill' >
-                        
-                        <h4>Javascript & Typescript</h4>
-                        
-                        <div class='skill-bar' data-percent='70' >
-                            <div class='bar' >
-                                <div class='percent' >70%</div>
-                            </div>
-                        </div>
-                        
-                    </div>
-                    
-                    <div class='skill' >
-                        
-                        <h4>HTML/CSS</h4>
-                        
-                        <div class='skill-bar' data-percent='90' >
-                            <div class='bar' >
-                                <div class='percent' >90%</div>
-                            </div>
-                        </div>
-                        
-                    </div>
-                    <div class='skill' >
-                        
-                        <h4>ASP.NET MVC</h4>
-                        
-                        <div class='skill-bar' data-percent='90' >
-                            <div class='bar' >
-                                <div class='percent' >90%</div>
-                            </div>
-                        </div>
-                        
-                    </div>
-                    
-                    
-                    
                 </div>
-                
-                <div class='col-md-6' >
-                    
-                    <div class='skill' >
-                        
-                        <h4>MS SQL</h4>
-                        
-                        <div class='skill-bar' data-percent='80' >
-                            <div class='bar' >
-                                <div class='percent' >80%</div>
-                            </div>
+                <div class='col-md-2 col-sm-4 col-6' >
+                    <div class='hobby' >
+                        <div class='icon' >
+                            <img src="\storage\images\skills\dotnetcore.png" alt="dotnetcore">
                         </div>
-                        
                     </div>
-                    <div class='skill' >
-                        
-                        <h4>Entity Framework</h4>
-                        
-                        <div class='skill-bar' data-percent='90' >
-                            <div class='bar' >
-                                <div class='percent' >90%</div>
-                            </div>
-                        </div>
-                        
-                    </div>
-                    
-                    <div class='skill' >
-                        
-                        <h4>php & laravel</h4>
-                        
-                        <div class='skill-bar' data-percent='60' >
-                            <div class='bar' >
-                                <div class='percent' >60%</div>
-                            </div>
-                        </div>
-                        
-                    </div>
-                    
-                    <div class='skill' >
-                        
-                        <h4>MySql</h4>
-                        
-                        <div class='skill-bar' data-percent='95' >
-                            <div class='bar' >
-                                <div class='percent' >95%</div>
-                            </div>
-                        </div>
-                        
-                    </div>
-                    
-                    
-                    
                 </div>
-                
-                
-                
+                <div class='col-md-2 col-sm-4 col-6' >
+                    <div class='hobby' >
+                        <div class='icon' >
+                            <img src="\storage\images\skills\efcore.png" alt="efcore">
+                        </div>
+                    </div>
+                </div>
+                <div class='col-md-2 col-sm-4 col-6' >
+                    <div class='hobby' >
+                        <div class='icon' >
+                            <img src="\storage\images\skills\js.png" alt="js">
+                        </div>
+                    </div>
+                </div>
+                <div class='col-md-2 col-sm-4 col-6' >
+                    <div class='hobby' >
+                        <div class='icon' >
+                            <img src="\storage\images\skills\ts.png" alt="ts">
+                        </div>
+                    </div>
+                </div>
+                <div class='col-md-2 col-sm-4 col-6' >
+                    <div class='hobby' >
+                        <div class='icon' >
+                            <img src="\storage\images\skills\html.png" alt="html">
+                        </div>
+                    </div>
+                </div>
+                <div class='col-md-2 col-sm-4 col-6' >
+                    <div class='hobby' >
+                        <div class='icon' >
+                            <img src="\storage\images\skills\CSS3.png" alt="CSS3">
+                        </div>
+                    </div>
+                </div>
+                <div class='col-md-2 col-sm-4 col-6' >
+                    <div class='hobby' >
+                        <div class='icon' >
+                            <img src="\storage\images\skills\flutter.png" alt="flutter">
+                        </div>
+                    </div>
+                </div>
+                <div class='col-md-2 col-sm-4 col-6' >
+                    <div class='hobby' >
+                        <div class='icon' >
+                            <img src="\storage\images\skills\mssql.png" alt="mssql">
+                        </div>
+                    </div>
+                </div>
+              
+                <div class='col-md-2 col-sm-4 col-6' >
+                    <div class='hobby' >
+                        <div class='icon' >
+                            <img src="\storage\images\skills\mysql.png" alt="mysql">
+                        </div>
+                    </div>
+                </div>
+              
+                <div class='col-md-2 col-sm-4 col-6' >
+                    <div class='hobby' >
+                        <div class='icon' >
+                            <img src="\storage\images\skills\laravel.png" alt="laravel">
+                        </div>
+                    </div>
+                </div>
+              
+
             </div>
             
-        </div>
         
     </div>
+</div>
     
    @include('layouts.footer')
     

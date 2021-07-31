@@ -2,8 +2,6 @@
 <section id='portfolio' class='portfolio-section section' >
     <div class='portfolio-block section-block' >
         <div class='container' >
-            <div class='row' >
-                <div class='col-md-6 col-md-offset-3' >
                     <div class='section-header text-center' >
                         <h2 class='animate text-over-block' >Portfolio</h2>
                         <!--divider-->
@@ -13,8 +11,6 @@
                             Check out my works.
                         </p>
                     </div>
-                </div>
-            </div>
       
             
             <div id='portfolio-grid' class='portfolio-items' >

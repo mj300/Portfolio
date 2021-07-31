@@ -19,7 +19,7 @@
 .facebook-icon {
     &:before {
         text-decoration: none;
-        padding: 0 .8rem;
+        padding: 0 .2rem;
         content: "\f39e";
         display: inline-block;
         font-family: "FA5 Brands" !important;
@@ -28,7 +28,7 @@
 .linkedin-icon {
     &:before {
         text-decoration: none;
-        padding: 0 .8rem;
+        padding: 0 .2rem;
         content: "\f0e1";
         display: inline-block;
         font-family: "FA5 Brands" !important;
@@ -37,7 +37,7 @@
 .github-icon {
     &:before {
         text-decoration: none;
-        padding: 0 .8rem;
+        padding: 0 .2rem;
         content: "\f09b";
         display: inline-block;
         font-family: "FA5 Brands" !important;
@@ -46,7 +46,7 @@
 .twitter-icon {
     &:before {
         text-decoration: none;
-        padding: 0 .8rem;
+        padding: 0 .2rem;
         content: "\f099";
         display: inline-block;
         font-family: "FA5 Brands" !important;
@@ -55,7 +55,7 @@
 .download-icon {
     &:before {
         text-decoration: none;
-        padding: 0 .8rem;
+        padding: 0 .2rem;
         content: "\f56d";
         display: inline-block;
         font-family: "FA5 Solid" !important;
@@ -64,7 +64,7 @@
 .game-icon {
     &:before {
         text-decoration: none;
-        padding: 0 .8rem;
+        padding: 0 .2rem;
         content: "\f11b";
         display: inline-block;
         font-family: "FA5 Solid" !important;
@@ -73,7 +73,7 @@
 .film-icon {
     &:before {
         text-decoration: none;
-        padding: 0 .8rem;
+        padding: 0 .2rem;
         content: "\f008";
         display: inline-block;
         font-family: "FA5 Solid" !important;
@@ -82,7 +82,7 @@
 .football-icon {
     &:before {
         text-decoration: none;
-        padding: 0 .8rem;
+        padding: 0 .2rem;
         content: "\f1e3";
         display: inline-block;
         font-family: "FA5 Solid" !important;
@@ -91,7 +91,7 @@
 .music-icon {
     &:before {
         text-decoration: none;
-        padding: 0 .8rem;
+        padding: 0 .2rem;
         content: "\f001";
         display: inline-block;
         font-family: "FA5 Solid" !important;
@@ -100,7 +100,7 @@
 .search-icon {
     &:before {
         text-decoration: none;
-        padding: 0 .8rem;
+        padding: 0 .2rem;
         content: "\f002";
         display: inline-block;
         font-family: "FA5 Solid" !important;
@@ -109,7 +109,7 @@
 .info-icon {
     &:before {
         text-decoration: none;
-        padding: 0 .8rem;
+        padding: 0 .2rem;
         content: "\f129";
         display: inline-block;
         font-family: "FA5 Solid" !important;
@@ -118,7 +118,7 @@
 .client-icon {
     &:before {
         text-decoration: none;
-        padding: 0 .8rem;
+        padding: 0 .2rem;
         content: "\f140";
         display: inline-block;
         font-family: "FA5 Solid" !important;
@@ -127,7 +127,7 @@
 .calender-icon {
     &:before {
         text-decoration: none;
-        padding: 0 .8rem;
+        padding: 0 .2rem;
         content: "\f073";
         display: inline-block;
         font-family: "FA5 Solid" !important;
@@ -136,8 +136,17 @@
 .clock-icon {
     &:before {
         text-decoration: none;
-        padding: 0 .8rem;
+        padding: 0 .2rem;
         content: "\f017";
+        display: inline-block;
+        font-family: "FA5 Solid" !important;
+    }
+}
+.fire-icon {
+    &:before {
+        text-decoration: none;
+        padding: 0 .2rem;
+        content: "\f06d";
         display: inline-block;
         font-family: "FA5 Solid" !important;
     }

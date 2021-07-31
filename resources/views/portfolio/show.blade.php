@@ -36,6 +36,7 @@
         
         <div class='work-content' >
             <div class='block' >
+                <h2>{{ $project->name }}</h2>
                 <h4>Info</h4>
                 <p>
                 {{ $project->Description }}
@@ -52,15 +53,25 @@
                  
 
                     <ul class="ul no-style ">
-                        <li><a href="{{ $project->demo_clientside }}">Shop Demo</a></li>
+                        @isset( $project->demo_clientside)
+                        <li><a href="{{ $project->demo_clientside }}">Main Demo</a></li>
+                        @endisset
+                        @isset( $project->demo_managerside)
                         <li><a href="{{ $project->demo_managerside }}">Admin Demo</a></li>
-                        <li>Username:{{ $project->demo_username }}</li>
+                        @endisset
+                       @isset( $project->demo_username)
+                       <li>Username:{{ $project->demo_username }}</li> 
+                       @endisset
+                       @isset( $project->demo_password)
                         <li>Password:{{ $project->demo_password }}</li>
+                        @endisset
+                        @isset( $project->github)
                         <li class="work">
                             <a href='{{ $project->github }}' >
                                  <i class='github-icon' ></i>
                             </a>
                          </li>
+                         @endisset
                     </ul>
                   
                 </div>

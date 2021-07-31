@@ -16,6 +16,9 @@ h1, h2, h3, h4, h5, h6,
 	font-weight:bold;
 	font-family: Raleway, sans-serif;
 }
+
+
+
 ::-webkit-scrollbar{
 	height:10px;
 	width:10px;
@@ -142,6 +145,11 @@ body.section-show .close-btn{
 	visibility:hidden;
 	transition: all .3s ease;
 }
+.inner-p {
+	font-size: 16px;
+    color: #777;
+    display: block;
+}
 body.section-show .section.active{
 	transition:opacity .4s 1.2s ease;
 	z-index:99;
@@ -175,19 +183,18 @@ body.section-show .section.active{
 	display:inline-block;
 	*display:inline;
 	*zoom:1;
-	margin-left:30px;
 }
 .footer-social > li > a{
 	text-decoration:none;
-	height:46px;
-	width:46px;
-	line-height:46px;
+	height:64px;
+	width:64px;
+	line-height:64px;
 	vertical-align:middle;
 	transform:rotate(45deg);
 	transition:all .3s ease-in-out;
 	display:block;
 	text-align:center;
-	color:#BBB;
+	color:#4e4c4c;
 	background:#F0F0F0;
 	font-size:0;
 }
@@ -202,9 +209,10 @@ body.section-show .section.active{
 	vertical-align:middle;
 }
 .footer-social > li > a > i:before{
-	font-size:14px;
+	font-size:30px;
 	line-height:1em;
 	vertical-align:middle;
+	padding-left: 0px;
 }
 .footer-social > li > a:hover{
 	background:#B7A389;
@@ -366,7 +374,7 @@ body.section-show .transition-mask:before{
 }
 .front-heading{
 	text-align:center;
-	margin-top:190px;
+	margin-top:130px;
 }
 .front-heading > h2{
 	font-size:55px;
@@ -385,31 +393,34 @@ body.section-show .transition-mask:before{
 }
 
 .front-person-img{
-	width:500px;
-	height:500px;
+	width:450px;
+	height:450px;
 	overflow:hidden;
 	background:#F0F0F0;
 	position:relative;
 	z-index:15;
 	transition:height .5s .3s ease, transform .5s .8s ease;
-	margin:200px auto;
+	margin: auto;
+	margin-top: 110px;
 	margin-bottom:0;
 	transform:rotate(45deg);
 	border-radius:0;
 }
 .front-person-img > img{
 	max-width:100%;
-	vertical-align:middle;
+	left: -75px;
+    top: -75px;
+	position: absolute;
 	transform:rotate(-45deg) translateY(40px);
 }
 
 .front-person-titles{
 	position:relative;
 	z-index:16;
-	height:500px;
-	width:500px;
+	height:450px;
+	width:450px;
 	margin:auto;
-	margin-top:-500px;
+	margin-top:-450px;
 	transform:rotate(45deg);
 }
 .front-person-titles > span{
@@ -444,9 +455,9 @@ body.section-show .transition-mask:before{
 
 .front-person-links{
 	margin:auto;
-	width:500px;
-	height:500px;
-	margin-top:-500px;
+	width:450px;
+	height:450px;
+	margin-top:-450px;
 	z-index:25;
 	transform: rotate(45deg);
 	position:relative;
@@ -698,8 +709,7 @@ body.section-show .transition-mask:before{
 	padding-bottom:100px;
 }
 .timeline-block .timeline{
-	padding-bottom:90px;
-	margin-top:100px;
+	margin-top:50px;
 }
 .timeline{
 	position:relative;
@@ -738,6 +748,11 @@ body.section-show .transition-mask:before{
 	text-align:right;
 	position:relative;
 }
+.timeline > li > .timeline-content>ul{
+	list-style-type: circle;
+	text-align:left !important;
+	padding-left: 10px;
+}
 .timeline > li.inverse > .timeline-content{
 	float:right;
 	text-align:left;
@@ -762,7 +777,7 @@ body.section-show .transition-mask:before{
 }
 .timeline > li > div{
 	width:50%;
-	padding:0 35px;
+	padding:0 10px;
 }
 .timeline > li > .timeline-content > h4{
 	margin-top:0;
@@ -785,8 +800,6 @@ body.section-show .transition-mask:before{
 	position:relative;
 	z-index:10;
 	text-align:center;
-	margin-bottom:100px;
-	margin-top:100px;
 }
 .timeline > li.timeline-header > h4{
 	font-weight:bold;
@@ -818,7 +831,7 @@ body.section-show .transition-mask:before{
 @media (max-width:992px){
 	.timeline > li:before,
 	.timeline:before{
-		display:none;
+		left: 10px!important;
 	}
 	.timeline > li > .timeline-desc{
 		opacity:.5;
@@ -852,10 +865,11 @@ body.section-show .transition-mask:before{
 	text-align:center;
 	margin-bottom:70px;
 	transition:all .3s ease-in-out;
+
 }
 .hobby > .icon{
 	font-size:0;
-	background:#B7A389;
+	background:#ffffff;
 	color:#FFF;
 	transform:rotate(45deg);
 	width:80px;
@@ -870,7 +884,7 @@ body.section-show .transition-mask:before{
 .hobby:hover > .icon{
 	top:-15px;
 }
-.hobby > .icon > i{
+.hobby > .icon > img{
 	display:block;
 	height:inherit;
 	width:inherit;
@@ -878,64 +892,9 @@ body.section-show .transition-mask:before{
 	text-align:center;
 	transform:rotate(-45deg);
 	padding-right: 10px;
-}
-.hobby > .icon > i:before{
 	vertical-align:middle;
-	font-size:45px;
-	line-height:1em;
 }
-.hobby > h4{
-	font-size:18px;
-	letter-spacing:2px;
-	margin-top:0;
-	margin-top:2px;
-}
-.skills-block{
-	padding:100px 0;
-	padding-bottom:40px;
-}
-.skills-block .section-header{
-	margin-bottom:80px;
-}
-.skill{
-	position:relative;
-	margin-bottom:60px;
-}
-.skill > h4{
-	font-size:14px;
-	margin-top:0;
-	margin-bottom:5px;
-	letter-spacing:2px;
-	color:#B7A389;
-}
-.skill > .skill-bar{
-	height:10px;
-	background:#F0F0F0;
-}
-.skill > .skill-bar > .bar{
-	background:#888;
-	height:100%;
-	width:0;
-	position:relative;
-}
-.skill > .skill-bar > .bar > .percent{
-	position:absolute;
-	padding:4px 7px;
-	background:#888;
-	color:#FFF;
-	bottom:100%;
-	right:0;
-	font-size:11px;
-	margin-bottom:10px;
-}
-.skill > .skill-bar > .bar > .percent:after{
-	content: ' ';
-	position:absolute;
-	border-bottom:solid 7px transparent;
-	border-right:solid 7px #888;
-	bottom:-7px;
-	right:0;
-}
+
 
 /*=======================================================================
 	Services Section
@@ -1223,7 +1182,7 @@ body .symp-btn{
 	background:transparent;
 	color:#999;
 }
-.symp-btn.link-btn > i{
+.symp-btn> i{
 	margin-right:8px;
 }
 .symp-btn.link-btn:hover{
@@ -1596,7 +1555,7 @@ body .symp-btn{
 	.front-person-links{
 		transform:rotate(0deg);
 		margin-top:110px;
-		text-align:start;
+		text-align:center;
 		position:relative;
 		margin-bottom:0;
 		width:auto;
@@ -1642,7 +1601,7 @@ body .symp-btn{
 		letter-spacing:2px;
 		text-transform:none;
 	}
-	.front-person-titles{
+	/* .front-person-titles{
 		margin-top:125px;
 		transform:none;
 		text-align:center;
@@ -1661,8 +1620,19 @@ body .symp-btn{
 		top:auto !important;
 		left:auto !important;
 		bottom:auto !important;
-	}
+	} */
 	
+	.front-person-titles{
+		height:360px;
+		width:360px;
+		margin-top: -360px;
+	}
+
+	.front-person-titles > span{
+		letter-spacing:8px;
+		font-size:15px;
+	}
+
 	.front-heading{
 		margin-top:80px;
 	}
@@ -1673,16 +1643,56 @@ body .symp-btn{
 		margin-top:65px;
 	}
 	.front-person-img{
-		width:65%;
-		padding-top:65%;
+		width:220px;
+		padding-top:220px;
 		height:0;
-		margin-top:120px;
+		margin-top:50px;
 	}
 	.front-person-img > img{
 		transform:rotate(-45deg) translateY(100px);
 		position:absolute;
-		bottom:0;
-		left:-40px;
+		top: -110px;
+		left: -110px;
+	}
+
+	.front-person-titles{
+		height:220px;
+		width:220px;
+		margin-top: -220px;
+	}
+
+	.front-person-titles > span{
+		letter-spacing:3px;
+		font-size:13px;
+	}
+
+	.timeline > li.inverse > .timeline-content,
+	.timeline > li.inverse > .timeline-desc{
+		float: left;
+	}
+
+	.timeline > li > .timeline-content > h4 {
+		float: left;
+		letter-spacing: normal;
+		padding-left: 20px;
+		margin-right: 20px;
+	}
+
+	.timeline > li > .timeline-content>ul ,
+	.timeline > li > .timeline-content > span ,
+	.timeline > li > .timeline-content > p ,
+	.timeline > li > .timeline-desc > h4,
+	.timeline > li > .timeline-desc > h6,
+	.timeline > li > .timeline-desc > div{
+		padding-left: 20px;
+	}
+
+	.timeline > li > .timeline-content ,
+	.timeline > li > .timeline-desc > h4,
+	.timeline > li > .timeline-desc > h6,
+	.timeline > li > .timeline-desc > div
+	{
+		text-align: left;
 	}
 }
 

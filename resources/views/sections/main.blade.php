@@ -14,7 +14,7 @@
             
             <!--title1-->
             <span class='t1' >
-                2mj.uk
+                Mahdi Joveyni
             </span>
             <!--/title1-->
             
@@ -26,7 +26,7 @@
             
             <!--title3-->
             <span class='t3' >
-            
+              
             </span>
             <!--/title3-->
             
@@ -73,9 +73,10 @@
             
         </nav>
         <div class='front-heading text-center' >
-            <h2>
-                Mahdi Joveyni
-            </h2>
+            
+            <div>
+                @include('tools.social')
+            </div>
         </div>
     </div>
     

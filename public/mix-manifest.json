@@ -2,5 +2,6 @@
     "/js/app.js": "/js/app.js",
     "/css/app.css": "/css/app.css",
     "/css/default-color.css": "/css/default-color.css",
+    "/css/bootstrap.css": "/css/bootstrap.css",
     "/css/main.css": "/css/main.css"
 }
