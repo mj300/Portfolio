@@ -18,6 +18,6 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::get_browser('/',function (){
+Route::get('/',function (){
     return 'Ok';
 });
